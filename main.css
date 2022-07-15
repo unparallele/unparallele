@@ -1,0 +1,210 @@
+*{
+	outline: 3px dotted red;
+}
+/**
+ * Use Text as Logo Option.
+ */
+h2{
+	color: #bbc085;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+h4{
+	font-family: lora;
+	font-size: 72px;
+	line-height: 80px;
+	color: #9b9b9b;
+}
+h3{
+	color: #2b2b2b;
+	font-size: 36px;
+}
+
+h2{
+	padding-top: 90px;
+}
+
+ h3,
+  h2{
+	font-family: lora;
+}
+
+body{
+	background: white;
+	
+}
+
+nav{
+	margin-left: 980px;
+	padding-bottom: 60px;
+}
+
+nav,
+ ul{
+	list-style: none;
+	padding: 0;
+}
+
+nav,
+ ul,
+  li{
+	display: inline-block;
+	margin-right: 20px;
+	font-family: source sans pro;
+	color: #828282;
+	font-size: 18px;
+	space-between: 80px;
+	text-transform: capitalize;
+}
+
+section{
+	height: 600px;
+}
+
+#work{
+	background: #f9ceb7;
+
+}
+
+#contact{
+	background: #ebebeb;
+}
+/**
+ * Add section background.
+ */
+.welcome{
+	color: #2b2b2b;
+	
+}
+
+.welcome-more{
+	text-indent: 310px;
+	float: right;
+	padding-bottom: 88px;
+	margin-top: 0px;
+	
+}
+
+#intro{
+	background-image: 
+	url('img\images-icons\full-background.png') no-repeat #bbc085;
+	background-size: cover;
+	background-position: center;
+}
+
+/**
+ * Create two columns.
+ */
+.summary,
+.summary-two{
+	font-family: "source sans pro";
+	color: #7f7f7f;
+	font-size: 21px;
+	line-height: 40px;
+	display: inline-block;
+	
+}
+
+.summary{
+	width: 600px;
+}
+
+.summary-two{
+	width: 600px;
+	float: right;
+	padding-bottom: 120px;
+}
+
+
+.work-title{
+	font-family: source sans pro;
+	color: #2b2b2b;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	padding:;
+	margin
+}
+
+.work-detail{
+	font-family: "lora";
+	font-size: 18px;
+	color: #2b2b2b;
+	line-height: 30px;
+	text-align: center;
+}
+/**
+ * Three in a row
+ */
+.work-sec-1,
+.work-sec-2,
+.work-sec-3{
+	padding: 10px;
+	width: 393px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+ 
+/**
+ * Uniform images for all three elements in the row.
+ */
+.work-img{
+	height: 45px;
+	width: 45px;
+	padding: 0;
+	margin: 20px 110px 1px 110px;
+	
+	
+}
+/**
+ * Two columns one only containing the image, the other containing contact details.
+ */
+.contact-img{
+	border-color: white;
+	border-width: 12px;
+	float: left;
+	width: 480px;
+	height: 400px;
+	margin-right: 200px;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.like{
+	font-family: lora;
+	font-size: 36px;
+	line-height: 44px;
+	color: #2b2b2b;
+}
+
+.meet{
+	font-family: source sans pro;
+	font-size: 32px;
+	line-height: 44px;
+	color: #2b2b2b;
+}
+
+.message{
+	color: #c49075;
+	font-family: source sans pro;
+	font-size: 28px;
+}
+
+.web-contact{
+	font-family: source sans pro;
+	font-size: 29px;
+	line-height: 44px;
+	color: #2b2b2b;
+}
+
+.closing-contact{
+	width: 380px;
+	float: right;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.interweb{
+	padding: 11px;
+}
