@@ -1,0 +1,325 @@
+
+body {
+	background-color: #fdffcd;
+}
+
+/*h1*/
+
+h1 {
+text-align: center;
+font-family: Script;
+font-style: italic;
+color: 	darkkhaki;
+}
+
+/*hr*/
+
+hr {
+color: white;
+}
+
+/*Images*/
+
+img.small {
+width: 100px;
+height: 100px;
+border: 3px solid darkkhaki;
+}
+img.medium {
+width: 230px;
+height: 230px;
+}
+
+img.media {
+width: 50px;
+height: 50px;
+}
+
+
+/*Header*/
+
+.header {
+position: absolute;
+verflow: auto;
+min-height: auto;
+margin-left: 30px;
+text-align: left;}
+
+
+.new {
+text-align: center;					
+}
+
+
+/*Banner*/
+{
+}
+
+
+
+
+
+/*Promo*/
+
+.promo {
+background-color: darkkhaki;
+min-height: 50px;
+max-height: 50px;
+text-align: center;
+font-family: Verdana;
+overflow:hidden;
+}
+
+
+/*Main*/
+
+.main{
+position: absolute;	
+object-fit: fill;
+width: 100%;
+padding: 50px;
+margin: 10px auto 10px auto;
+}
+
+
+.nobox {
+position: absolute;
+top: 63%;
+border: thick solid white;
+background-color: silver;
+padding: 10px;
+height: 20%;
+Width: 45%;
+line-height: 1.6em;
+text-decoration: italic bold;
+}
+
+/*Parallel Container*/
+#container {
+overflow:hidden;
+width:100%;
+padding: 10px;
+
+}
+.never{
+top: 50px;
+height: 340px;
+width: 50%;
+bottom: 8px;
+margin-right: 5%;
+margin: 30px;
+font-size: 18px;
+color: olive;
+font-style: bold;
+border-style: solid;
+border-color: gray;
+background-color: lightgray;
+opacity: 0.6;
+text-align: left;
+	
+}
+
+.never, .zerobox{
+float: left;
+width: 400px;
+margin: 10px;
+}
+
+.zerobox{
+background: url("images/picintro_img1.jpg");
+background-position: bottom;
+background-repeat: no repeat;
+opacity: 0.5;
+height: 330px;
+width: 50%;
+bottom: 8px;
+margin-right: 45%;
+margin: 30px;	
+}
+
+.inside {
+text-align: center;
+line-height: 1.6em;
+border-style: solid;
+border-color: darkkhaki;
+color: white;
+margin-top: 20%;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+
+/*Products Style*/
+figcaption {
+color: 	darkkhaki;
+font-size: 18px;
+}
+
+#container3 {
+overflow:hidden;
+width: 100%;
+margin: 0px; auto;
+align: center;
+padding: 20px;
+}
+.products {
+float:left;
+width: 30%;
+text-align: center;
+font-family: sans-Serif;
+font-style: italic;
+font-size: 10px;
+}
+.products2 {
+float:left;
+width: 30%;
+text-align: center;
+font-family: sans-Serif;
+font-style: italic;
+font-size: 10px;
+}
+
+
+.products3 {
+float:left;
+width: 30%;
+text-align: center;
+font-family: sans-Serif;
+font-style: italic;
+font-size: 10px;
+}
+
+button {
+background-color: black;
+color: white;
+text-transform: uppercase;
+text-align: center;	
+font-family: Arial, Verdana, sans-Serif;
+margin: 15px;	
+}
+
+.button {
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+ background-color: gray;
+ color: darkgray;
+}
+
+.new {
+text-align: left;
+}
+
+
+/*Modal Window*/
+
+.w3-modal-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w3-container {
+  position: relative;
+  background-color: white;
+  padding: 4em 2em;
+}
+
+.modal__close {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+#modal:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.title {
+text-transform: uppercase;
+font-size: 80%;
+}
+
+
+
+/*Footer and Social Media*/
+#container4 {
+overflow:auto;
+width: 100%;
+padding: 10px;
+background-color: black;
+color: white;
+text-align: center;
+}
+
+.ref {
+
+}
+
+
+
+
+/*Table*/
+
+table {
+width: 100%;
+}
+th, td {
+padding: 10px 13px 13px 13px;
+text-align: left;
+}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+}
+.center {
+margin-left: auto;
+margin-right: auto;
+}
+
+#footer {
+width: 100%;
+padding: 10px;
+background-color: black;
+color: white;
+text-align: center;
+}
+
+.ref {
+text-align: center;
+}
+
+
+/*Paragraph Styles*/
+.new {}
+
+.p2 {
+background-color: silver;
+height: 50%;
+width: 50%;
+margin-left:auto;
+margin-right:auto;
+}
+
+.p2b {
+background-color: silver;
+height: 50%;
+width: 50%;
+}
+.continue {
+font-size: 80%
+}
+
+.close {
+width: 100%;
+text-align: center;
+}
